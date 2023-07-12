@@ -1,9 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="dev.abdullo.roomreservation.domains.User" %>
+<%@ page import="dev.jason.roomreservation.domains.User" %>
 <%--<%@ taglib prefix="c" uri="jakarta.tags.core" %>--%>
 <%--
   Created by IntelliJ IDEA.
-  User: abdullo
+  User: jason
   Date: 2/19/23
   Time: 1:29 PM
   To change this template use File | Settings | File Templates.

@@ -5,10 +5,10 @@
              version="3.0">
     <persistence-unit name="room-reservation">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>dev.abdullo.roomreservation.domains.User</class>
-        <class>dev.abdullo.roomreservation.domains.Reservation</class>
-        <class>dev.abdullo.roomreservation.domains.Field</class>
-        <class>dev.abdullo.roomreservation.domains.Room</class>
+        <class>dev.jason.roomreservation.domains.User</class>
+        <class>dev.jason.roomreservation.domains.Reservation</class>
+        <class>dev.jason.roomreservation.domains.Field</class>
+        <class>dev.jason.roomreservation.domains.Room</class>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/room_booking"/>
 <!--            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/railway"/>-->

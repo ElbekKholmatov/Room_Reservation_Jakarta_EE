@@ -1,4 +1,4 @@
-<%@ page import="dev.abdullo.roomreservation.domains.User" %>
+<%@ page import="dev.jason.roomreservation.domains.User" %>
 <%--
   Created by IntelliJ IDEA.
   User: javohir
@@ -41,16 +41,16 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="/tafakkooradmin">All users</a>
+                <a class="nav-link" href="/sheengoadmin">All users</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/tafakkooradmin/all">All Reservations</a>
+                <a class="nav-link" href="/sheengoadmin/all">All Reservations</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/tafakkooradmin/active">Active Reservations</a>
+                <a class="nav-link" href="/sheengoadmin/active">Active Reservations</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/tafakkooradmin/expired"><i><u>Expired Reservations</u></i></a>
+                <a class="nav-link" href="/sheengoadmin/expired"><i><u>Expired Reservations</u></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" style="color: red" href="/logout">Log out</a>
@@ -157,7 +157,7 @@
                 <h5 class="modal-title" id="changeRoleModalLabel">User change role </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form method="post" action="/tafakkooradmin/change-role/*" id="new-line">
+            <form method="post" action="/sheengoadmin/change-role/*" id="new-line">
                 <div class="modal-body">
                     <input type="hidden" name="id" id="id" value="${id}">
                     <input type="hidden" name="role" id="role" value="${role}">

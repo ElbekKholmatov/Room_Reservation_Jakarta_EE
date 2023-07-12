@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
-  User: abdullo
+  User: jason
   Date: 2/13/23
   Time: 12:37 AM
   To change this template use File | Settings | File Templates.
@@ -78,7 +78,7 @@
     <div class="container">
         <div class="row fullscreen d-flex align-items-center justify-content-start">
             <div class="banner-content col-lg-7">
-                <%--        <h5 class="text-white text-uppercase">Tafakkoor Books</h5>--%>
+                <%--        <h5 class="text-white text-uppercase">sheengo Books</h5>--%>
                 <h1 class="text">
                     Book a room <br>with just<br> a click
                 </h1>
